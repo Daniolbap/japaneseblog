@@ -2,6 +2,14 @@
   "name": "myjapanvi",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Daniolbap/japaneseblog#readme",
+  "bugs": {
+    "url": "https://github.com/Daniolbap/japaneseblog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniolbap/japaneseblog.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
