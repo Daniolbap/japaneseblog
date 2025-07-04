@@ -1,0 +1,57 @@
+header {
+  background-color: #ced4da;
+}
+
+body {
+  background-color: #dee2e6;
+}
+
+footer {
+  background-color: #e9ecef;
+}
+.my-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #dee2e6;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.my-grid img {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+.my-grid img:hover {
+  transform: scale(0.8); /* Se hace más pequeña = se aleja */
+}
+
+.my-grid-2 h1 {
+  font-size: 75px;
+  padding-top: 50px;
+  text-align: center;
+
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+}
+
+.my-grid-2 h2 {
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.my-grid-2 p {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+}
