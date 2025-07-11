@@ -47,6 +47,7 @@ footer {
   font-size: 50px;
   padding-top: 50px;
   text-align: center;
+  background-image: url("/images/blog icon.pngs");
 }
 
 .my-grid-2 p {
@@ -54,4 +55,12 @@ footer {
   padding-left: 60px;
   padding-right: 60px;
   text-align: center;
+}
+
+.col-2 {
+  background-color: #dee2e6;
+}
+
+.col-8 {
+  background-color: #e7eef5;
 }
