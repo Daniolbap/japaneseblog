@@ -62,5 +62,35 @@ footer {
 }
 
 .col-8 {
-  background-color: #e7eef5;
+  background-color: #f8f9fa;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+.div-svg {
+  padding-top: 50px;
+  padding-left: 90%;
+  display: flex;
+}
+
+.h1-part {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.h2-part {
+  padding-right: 60%;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.p-article {
+  font-family: "PT Sans", sans-serif;
+  padding-right: 30%;
+  text-align: left;
+  padding-left: 5%;
 }
