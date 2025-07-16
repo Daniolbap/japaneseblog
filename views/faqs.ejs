@@ -19,6 +19,50 @@
           </div>
         </div>
         <hr />
+        <p class="p-article">fdsfdsfsdfsdfsdfsdf</p>
+        <div class="question-h2">
+          <div class="h2-part"><h2>How Do I Start</h2></div>
+          <div>
+            <img
+              class="question-mark"
+              src="images/question.png"
+              alt="question mark"
+            />
+          </div>
+        </div>
+        <hr />
+
+        <div>
+          <div class="question-h2">
+            <div class="h2-part"><h2>Leve Your Comment</h2></div>
+            <div>
+              <img
+                class="comment-mark"
+                src="images/comment-25.png"
+                alt="question mark"
+              />
+            </div>
+          </div>
+          <hr />
+          <form class="form-c" action="/faqs" method="POST">
+            <textarea name="comment" placeholder="Here"></textarea><br />
+            <button type="submit" class="btn btn-secondary btn-lg">
+              Post it
+            </button>
+          </form>
+
+          <ul>
+            <% if (comments.length === 0) { %>
+
+            <li class="no-comment">No comments yet</li>
+            <hr />
+            <% } else { %> <% comments.forEach(comment => { %>
+            <hr />
+            <li><%= comment.text %></li>
+            <hr />
+            <% }) %> <% } %>
+          </ul>
+        </div>
 
         <%- include("partials/svg.ejs") %> %>
       </div>
