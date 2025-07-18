@@ -19,19 +19,68 @@ footer {
   background-color: #dee2e6;
 }
 
+@media (max-width: 1000px) {
+  .my-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #dee2e6;
+    .my-grid img {
+      width: 100px;
+      height: 100px;
+      transition: transform 0.5s ease;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .my-grid img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease;
+  }
+}
+
 .question-h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
+@media (max-width: 1300px) {
+  .question-h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .question-mark {
   width: 80px;
   height: 50px;
+}
+
+@media (max-width: 1300px) {
+  .question-mark {
+    width: 50px;
+    height: 30px;
+  }
 }
 .comment-mark {
   width: 50px;
   height: 50px;
   padding-top: 10px;
+}
+@media (max-width: 1300px) {
+  .comment-mark {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+  }
 }
 .my-grid {
   display: grid;
@@ -100,6 +149,21 @@ svg {
   display: flex;
 }
 
+@media (max-width: 1024px) {
+  .div-svg {
+    padding-top: 50px;
+    padding-left: 44%;
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .div-svg {
+    padding-top: 50px;
+    padding-left: 30%;
+    display: flex;
+  }
+}
 .h1-part {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -110,6 +174,14 @@ svg {
   padding-right: 60%;
   font-family: "Open Sans", sans-serif;
   padding-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .h2-part {
+    padding-right: 0%;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+  }
 }
 
 .p-article {
@@ -130,6 +202,15 @@ svg {
   padding-right: 80px;
   padding-bottom: 50px;
   padding-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .about-i {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
 }
 
 ul {
@@ -160,4 +241,20 @@ button {
   flex-direction: row;
   justify-content: center;
   gap: 50px;
+}
+
+@media (max-width: 1024px) {
+  .img-faqs-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-faqs {
+    width: 200px;
+    height: 200px;
+  }
 }
